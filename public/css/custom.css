@@ -1,0 +1,291 @@
+/* Utilities */
+
+.font-23{
+	font-size: 23px !important;
+}
+
+.font-18{
+	font-size: 18px !important;
+}
+
+.m-b-15{
+	margin-bottom: 15px;
+}
+
+.text-red{
+	color: red !important;
+}
+
+/* Loading para ajax */
+.loading-ajax{
+	position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 99999;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+    top: 0px;
+}
+
+.loading-ajax .content{
+	top: calc(50vh - 60px);
+    position: absolute;
+    left: 40%;
+}
+
+.loading-ajax .content i{
+	font-size: 30px;
+	color: #fff;
+}
+
+/*Loading para coppel*/
+.loading-coppel{
+	position: relative;
+	height: 400px;
+	width: 100%;
+	z-index: 99999;
+	background-color: rgba(0,0,0,0.4);
+	top: 0px;
+}
+
+.loading-coppel .content{
+  position: absolute;
+	top: 50%;
+  left: 50%;
+}
+
+.loading-coppel .content i{
+	font-size: 30px;
+	color: #fff;
+}
+
+/* pagina de aganda */
+
+.content-date{
+	border: 2px #d3d1d1;
+    border-style: solid;
+    padding: 20px;
+}
+
+/*.icon-dashboard{
+	border: solid #000 1px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.icon-dashboard .icon{
+    font-size: 61px;
+    position: relative;
+    top: 30px;
+}*/
+
+.btn-dashboard-v{
+	position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 52px);
+}
+
+.btn-dashboard-c{
+	position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 70px);
+}
+
+.pac-container{
+	z-index: 9999999;
+}
+
+@media only screen and (max-width: 600px) {
+	.top-left-part .logo b{
+		display: list-item !important;
+	}
+
+	.navbar-header .navbar-toggle {
+		display: inline !important;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	/* pagina de login */
+  .login-register{
+  		background: none !important;
+	}
+
+	.loading-ajax .content{
+	    left: 45% !important;
+	}
+
+	.icon-dashboard .icon{
+	    font-size: 40px;
+	    margin-bottom: 12px;
+	}
+
+	.total-debt{
+		text-align: center;
+    font-size: 20px;
+		padding-top: 5px;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 426px) {
+	.icon-dashboard{
+		border: solid #000 1px;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    border-radius: 50%;
+	    width: 120px;
+	    height: 120px;
+	}
+
+	.icon-dashboard .icon{
+	    font-size: 60px;
+	    position: relative;
+	    top: 30px;
+	}
+
+	.total-debt{
+		text-align: center;
+    font-size: 20px;
+		padding-top: 5px;
+		width: 120px;
+	}
+}
+
+@media only screen and (min-width: 576px) {
+  	#detail-modal .modal-dialog{
+  		max-width: 700px !important;
+	}
+}
+
+/*item de notificacion menu*/
+.custom-item-menu .noti-cont{
+	width: 18px;
+	float: left;
+}
+
+.custom-item-menu .waves-effect{
+	height: 50px;
+}
+
+.custom-item-menu .noti-cont .notify{
+	margin-top: -20px;
+}
+
+.custom-item-menu .h-it .noti-cont .notify{
+	display: none;
+}
+
+.custom-item-menu .h-it .hide-menu{
+	padding-left: 2px;
+}
+
+.custom-item-menu .v-it .noti-cont .notify{
+	display: block;
+}
+
+.custom-item-menu .v-it .hide-menu{
+	padding-left: 20px;
+}
+
+.custom-item-menu .noti-cont .notify .heartbit{
+	top: -13px;
+	right: -11px;
+}
+
+.custom-item-menu .noti-cont .notify .point{
+	top: -3px;
+	right: -1px;
+}
+
+.custom-item-menu .icon{
+	float: left;
+}
+
+.custom-item-menu .notify-content .txt{
+	width: 175px;
+}
+
+.custom-item-menu .notify-content .number{
+	position: absolute;
+    top: 3px;
+    left: unset !important;
+    border: 1px solid #fb9678;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 2px;
+    font-size: 11px;
+    background-color: #fb9678;
+    color: #fff;
+    width: 20px;
+    text-align: center;
+    font-weight: 100 !important;
+    margin-left: 5px;
+}
+
+/*Colores de perfiles*/
+.item-seller{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.Vendedor{
+	background-color: #03a9f3;
+	color: #FFF;
+}
+
+.Comisionista{
+	background-color: #03a9f3;
+	color: #FFF;
+}
+
+.Coordinador{
+	background-color: #5cb85c;
+	color: #FFF;
+}
+
+.SubCoordinador{
+	background-color: #5cb85c;
+	color: #FFF;
+}
+
+.table-dn-noty th,tr {
+	text-align: center;
+}
+
+.table-dn-noty .noty{
+	color: white;
+}
+
+.table-dn-noty .red-noty{
+	background-color: red;
+}
+
+.table-dn-noty .org-noty{
+	background-color: orange;
+}
+
+.bundle-component-container{
+	border-radius: 8px;
+}
+.loading-bundle-component{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.05);
+	top: 0px;
+	left: 0px;
+	border-radius: 8px;
+}
+.loading-bundle-component > div{
+	position: absolute;
+    top: CALC(50% - 22px);
+    left: CALC(50% - 22px);
+    color: #666;
+    font-size: 44px;
+}

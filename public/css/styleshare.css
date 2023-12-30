@@ -1,0 +1,52 @@
+#block_share {
+  z-index: 100;
+  right: 6px;
+  bottom: 6px;
+}
+#block_share .share_tyc {
+  cursor: pointer;
+}
+#block_share .share-options {
+  position: absolute;
+  color: #25D366;
+  bottom: 55px;
+  border: 3px solid #25D366;
+  padding: 1rem;
+  text-align: left;
+  right: 35px;
+  width: 130px;
+  border-radius: 10px;
+  background-color: #ebeff3;
+}
+#block_share .share-options a {
+  /*color: #393939 !important;*/
+  margin: 0.5rem 0;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+}
+#block_share i {
+  font-size: 35px;
+  margin-left: auto;
+}
+#block_share #icon_whatsapp i {
+  color: #25D366;
+}
+#block_share #icon_mail i {
+  color: #DB4437;
+}
+#block_share #icon_sms i {
+  color: #2EB67D;
+}
+@media screen and (min-width: 401px) and (max-width: 576px) {
+  #block_share .share-options {
+    bottom: 50px;
+    right: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #block_share .share-options {
+    bottom: 50px;
+    right: 50px;
+  }
+}
